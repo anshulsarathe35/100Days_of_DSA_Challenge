@@ -4,7 +4,7 @@ class Solution {
     public boolean halvesAreAlike(String s) {
         int n = s.length();
         String str1 = s.substring(0,n/2);
-        String str2 = s.substring(n/2,n);
+        String str2 = s.substring(n/2,n);                       
         int vowelCount1 = 0;
         int vowelCount2 = 0;
         for(char ch: str1.toLowerCase().toCharArray()){
